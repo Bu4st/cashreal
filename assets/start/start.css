@@ -1,0 +1,123 @@
+* {
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 𝗖𝗼𝗽𝘆𝗿𝗶𝗴𝗵𝘁 © 𝟮𝟬𝟮𝟯 𝗝𝗮𝗸𝘂𝗯 𝗧𝗼𝗺𝗰𝘇𝘆𝗸. 𝗪𝘀𝘇𝗲𝗹𝗸𝗶𝗲 𝗽𝗿𝗮𝘄𝗮 𝘇𝗮𝘀𝘁𝗿𝘇𝗲𝘇𝗼𝗻𝗲. */
+
+main {
+
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #057EFF;
+    background-position: center;
+    background-repeat: repeat;
+background-size: cover;
+}
+form {
+    z-index: 2;
+    box-shadow: 0px 0px 10px -4px rgba(255, 255, 255, 1);
+     margin-right: 60%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    width: 500px;
+    height: 590px;
+    background-color: #eee;
+}
+input {
+font-weight: bold;
+box-shadow: 2px 2px 6px 0px rgba(66, 68, 90, 0.397);
+width: 200px;
+height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+margin-top: 20px;
+}
+input:focus {
+    outline: none;
+}
+input:nth-child(1) {
+    margin-top: 350px;
+}
+input::placeholder {
+    font-weight: bold;
+
+}
+input[type=submit] {
+    font-family: monospace;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(0, 68, 255);
+    cursor: pointer;
+}
+
+label:nth-child(1) {
+    margin-top: 60px;
+}
+
+.main-picture {
+    top: -2%;
+    left: 4%;
+    position: absolute;
+    z-index: -2;
+}
+@media ( min-width: 1100px) {
+    img {
+        width: 1000px;
+    }
+}
+@media ( min-width: 1200px) {
+    img {
+        width: 1400px;
+    }
+}
+@media ( min-width: 1500px) {
+    img {
+        width: 1800px;
+    }
+}
+.input-button {
+    width: 200px;
+}
+img:nth-child(1) {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+position: absolute;
+left: 0;
+width: 100%;
+border-radius: 20px;
+}
+.btn-register {
+margin-top: 540px;
+}
+#about , #cennik , #kontakt {
+
+visibility: hidden;
+    box-shadow: -1px 2px 10px 0px rgba(66, 68, 90, 1);
+    border-radius: 20px;
+    position: absolute;
+    z-index: 50;
+margin-bottom: -2000px;
+    width: 1000px;
+    height: 700px;
+    background-color: 
+    #ffffff;
+
+}
