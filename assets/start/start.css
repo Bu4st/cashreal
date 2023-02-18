@@ -31,7 +31,7 @@ form {
     border-radius: 30px;
     width: 500px;
     height: 590px;
-    background-color: #eee;
+    background-color: #fff;
 }
 input {
 font-weight: bold;
@@ -77,19 +77,54 @@ label:nth-child(1) {
     position: absolute;
     z-index: -2;
 }
-@media ( min-width: 1100px) {
+@media ( max-width: 1200px) {
     img {
-        width: 1000px;
+        display: none;
+    }
+    main {
+
+
+    }
+    form {
+        margin-left: 50%;
     }
 }
+
 @media ( min-width: 1200px) {
     img {
-        width: 1400px;
+        margin-top: 200px;
+        width: 1200px;
     }
+
 }
 @media ( min-width: 1500px) {
     img {
+        margin-top: 100px;
         width: 1500px;
+    }
+
+}
+@media ( min-width: 1400px) {
+    img {
+        margin-top: 100px;
+        width: 1400px;
+    }
+
+}
+@media ( min-width: 1600px) {
+    img {
+        margin-top: 0;
+        width: 1600px;
+    }
+}
+@media ( min-width: 1700px) {
+    img {
+        width: 1700px;
+    }
+}
+@media ( min-width: 1800px) {
+    img {
+        width: 1800px;
     }
 }
 .input-button {
