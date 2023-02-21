@@ -77,6 +77,22 @@ label:nth-child(1) {
     position: absolute;
     z-index: -2;
 }
+@media ( max-width: 600px ) {
+    .main-picture {
+        display: none;
+    }
+    main {
+
+
+    }
+    form {
+       width: 300px;
+       height: 490px;
+    }
+    .btn-register {
+        margin-top: 400px !important;
+        }
+}
 @media ( max-width: 992px ) {
     .main-picture {
         display: none;
